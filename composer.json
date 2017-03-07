@@ -1,0 +1,8 @@
+{
+    "name": "chewei05/quickadmin-lang",
+    "description": "Traditional Chinese (zh-TW) Language for Quickadmin",
+    "type": "Language Package",
+    "require": {
+        "laraveldaily/quickadmin": "2.1.*"
+    }
+}
