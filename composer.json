@@ -1,8 +1,21 @@
 {
     "name": "chewei05/quickadmin-lang",
-    "description": "Traditional Chinese (zh-TW) Language for Quickadmin",
-    "type": "Language Package",
+    "description": "Traditional Chinese (zh-TW) Language for Quickadmin.",
+	"version": "0.0.2",
     "require": {
-        "laraveldaily/quickadmin": "2.1.*"
-    }
+        "laraveldaily/quickadmin": "^2.1.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Chewei Hu",
+            "email": "cheweihu@users.noreply.github.com"
+        }
+    ],
+    "minimum-stability": "stable",
+	"autoload": {
+		"psr-4": {
+			"CheweiHu\\QuickadminLang\\": "src/"
+		}
+	}
 }
